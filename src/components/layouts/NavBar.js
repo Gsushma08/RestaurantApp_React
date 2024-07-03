@@ -29,7 +29,7 @@ const Navbar = () => {
               fontFamily: "Times New Roman, serif",
               fontStyle: "italic",
               textTransform: "capitalize",
-              fontSize: "8rem",
+              fontSize: "3rem",
               color: "gold",
             }}
           >
@@ -86,7 +86,9 @@ const Navbar = () => {
                   </Link>
                 </li>
                 <li className="Pages_links">
-                  <Link to="/about">About Us</Link>
+                  <Link to="/about" onClick={() => setShowMenu(false)}>
+                    About Us
+                  </Link>
                 </li>
                 <li className="Pages_links">
                   <Link to="/menu" onClick={() => setShowMenu(false)}>
@@ -94,16 +96,17 @@ const Navbar = () => {
                   </Link>
                 </li>
                 <li className="Pages_links">
-                  <Link to="/contact">Contact</Link>
+                  <Link to="/contact" onClick={() => setShowMenu(false)}>
+                    Contact
+                  </Link>
                 </li>
-                {/* Move the login/register links here */}
                 <li className="Pages_links">
-                  <a href="#!" onClick={toggleLoginRegisterModal}>
+                  <a href="#!" onClick={() => { toggleLoginRegisterModal(); setShowMenu(false); }}>
                     Log In / Register
                   </a>
                 </li>
                 <li className="Pages_links">
-                  <a href="#!" onClick={toggleTableBookingModal}>
+                  <a href="#!" onClick={() => { toggleTableBookingModal(); setShowMenu(false); }}>
                     Book Table
                   </a>
                 </li>

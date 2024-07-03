@@ -6,7 +6,7 @@
   background: black;
   padding: 1rem 2rem;
   color: gold;
-  height: 10%; 
+  overflow-x: auto; 
 }
 
 .navbar-logo {
@@ -16,14 +16,12 @@
 }
 
 .navbar-links {
-  flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
   list-style: none;
-  font-size: 6rem;
-  gap: 5rem; 
-
+  gap: 2rem;
+  font-size: 3rem; 
 }
 
 .navbar-links li {
@@ -39,8 +37,8 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  font-size: 6rem; 
-  gap: 5rem;
+  gap: 2rem;
+  font-size: 3rem; 
 }
 
 .navbar-login a {
@@ -53,14 +51,8 @@
   border-bottom: 1px solid gold;
 }
 
-.navbar-login div {
-  width: 1px;
-  height: 30px;
-  background-color: grey;
-}
-
 .navbar-smallscreen {
-  display: none; 
+  display: none;
 }
 
 .navbar-smallscreen_overlay {
@@ -86,52 +78,39 @@
 
 .navbar-smallscreen_links {
   list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .navbar-smallscreen_links li {
-  margin: 2rem;
+  margin: 2rem 0;
   cursor: pointer;
   color: gold;
   font-size: 2rem;
   text-align: center;
-  font-family:'Times New Roman', Times, serif;
 }
 
 .navbar-smallscreen_links li:hover {
   color: white;
 }
 
-.navbar-login-smallscreen {
-  font-size: 2rem; 
-  color:gold;
-  cursor: pointer;
-  position: absolute;
-  top: 20px;
-  right: 20px;
-}
-
 @media screen and (max-width: 1150px) {
   .navbar-links {
-    display: none; 
+    display: none;
+  }
+  .navbar-login {
+    display: none;
   }
   .navbar-smallscreen {
-    display: flex; 
+    display: flex;
   }
 }
 
 @media screen and (max-width: 650px) {
   .navbar {
-    padding: 1rem; 
-    height: 15%; 
-  }
-  .navbar-login {
-    display: none;
-  }
-  .navbar-logo {
-    width: 100px; 
-  }
-  .navbar-links {
-    font-size: 2.5rem; 
+    padding: 1rem;
   }
 }
-
