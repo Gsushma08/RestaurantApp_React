@@ -50,7 +50,7 @@
 
 .form-label {
   margin: 10px 0 5px;
-  font-size: 2.5rem; 
+  font-size: 4rem; 
 }
 
 .form-input, .form-select {
@@ -60,7 +60,7 @@
   border-radius: 4px;
   background-color: black;
   color: white;
-  font-size: 2.5rem; 
+  font-size: 4rem; 
 }
 
 .submit-button {

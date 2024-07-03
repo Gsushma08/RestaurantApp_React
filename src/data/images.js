@@ -7,7 +7,6 @@ import speciality3 from "../photos/speciality3.jpg";
 import Chilly_Gobi from "../photos/Chilly_Gobi.jpeg";
 import gobi_65 from "../photos/gobi_65.jpg";
 import Paneer_65 from "../photos/Paneer_65.jpeg";
-import paneer_manchuria from "../photos/paneer_manchuria.jpg";
 import Chilli_paneer from "../photos/Chilli_paneer.jpg";
 import Kaju_Pakoda from "../photos/Kaju_Pakoda.jpg";
 import babycorn_Manchuria from "../photos/babycorn_Manchuria.jpg";
@@ -17,7 +16,6 @@ import chickendrumstick from "../photos/chickendrumstick.jpg";
 import chicken65 from "../photos/chicken65.jpg";
 import chickenlollipop from "../photos/chickenlollipop.jpg";
 import chickenmanchuria from "../photos/chickenmanchuria.jpg";
-import muttonkeema from "../photos/muttonkeema.jpg";
 import muttonginger from "../photos/muttonginger.jpg";
 import apollofish from "../photos/apollofish.jpg";
 import prawns65 from "../photos/prawns65.JPG";
@@ -32,6 +30,7 @@ import vankayamasala from "../photos/vankayamasala.jpg";
 import eggmasala from "../photos/eggmasala.jpg";
 import chickenbutter from "../photos/chickenbutter.jpg";
 import naatukodi from "../photos/naatukodi.jpg";
+import kadaichicken from "../photos/kadaichicken.jpg";
 import muttoncurry from "../photos/muttoncurry.jpg";
 import fishcurry from "../photos/fishcurry.jpg";
 import muttongongura from "../photos/muttongongura.jpg";
@@ -40,19 +39,14 @@ import paneerbiryani from "../photos/paneerbiryani.jpg";
 import mushroombiryani from "../photos/mushroombiryani.jpg";
 import eggbiryani from "../photos/eggbiryani.jpg";
 import chickenbiryani from "../photos/chickenbiryani.jpg";
-import chickenbiryanispl from "../photos/chickenbiryanispl.jpg";
 import nalligosh from "../photos/nalligosh.jpg";
 import muttonbiryani from "../photos/muttonbiryani.jpg";
-import curdrice from "../photos/curdrice.jpg";
 import plainrice from "../photos/plainrice.jpg";
 import oreo from "../photos/oreo.jpg";
 import kitkat from "../photos/kitkat.jpg";
-import lemonade from "../photos/lemonade.jpg";
-import orange from "../photos/orange.jpg";
 import mango from "../photos/mango.jpg";
 import pepsi from "../photos/pepsi.jpg";
 import gulabjamun from "../photos/gulabjamun.jpg";
-import rasgulla from "../photos/rasgulla.jpg";
 import icecream from "../photos/icecream.jpg";
 import brownie from "../photos/brownie.jpeg";
 import cheesecake from "../photos/cheesecake.jpg";
@@ -76,7 +70,6 @@ const images = {
   Chilly_Gobi,
   gobi_65,
   Paneer_65,
-  paneer_manchuria,
   Chilli_paneer,
   Kaju_Pakoda,
   babycorn_Manchuria,
@@ -86,7 +79,6 @@ const images = {
   chicken65,
   chickenlollipop,
   chickenmanchuria,
-  muttonkeema,
   muttonginger,
   apollofish,
   prawns65,
@@ -101,6 +93,7 @@ const images = {
   eggmasala,
   chickenbutter,
   naatukodi,
+  kadaichicken,
   muttoncurry,
   fishcurry,
   muttongongura,
@@ -109,19 +102,14 @@ const images = {
   mushroombiryani,
   eggbiryani,
   chickenbiryani,
-  chickenbiryanispl,
   nalligosh,
   muttonbiryani,
-  curdrice,
   plainrice,
   oreo,
   kitkat,
-  lemonade,
-  orange,
   mango,
   pepsi,
   gulabjamun,
-  rasgulla,
   icecream,
   brownie,
   cheesecake,

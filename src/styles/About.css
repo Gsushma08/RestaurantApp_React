@@ -28,7 +28,7 @@
 .aboutus-content_about {
   align-items: flex-end;
   text-align: right;
-  font-size: 4rem;
+  font-size: 2rem;
   animation: slideInLeft 5s forwards;
 }
 
@@ -36,7 +36,7 @@
   align-items: flex-start;
   text-align: left;
   animation: slideInRight 5s forwards;
-  font-size: 4rem;
+  font-size: 2rem;
 }
 
 .aboutus-content_knife {
@@ -53,7 +53,7 @@
 .aboutus-content_history p {
   margin: 2rem 0;
   color: black;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
 }
 
 .custom__button {
