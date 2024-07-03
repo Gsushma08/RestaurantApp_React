@@ -20,7 +20,11 @@
   position: relative;
   color: black;
   height: 60%;
-  font-size: 4rem;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .close-button {

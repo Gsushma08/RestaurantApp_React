@@ -10,7 +10,7 @@ const TableBooking = ({ isOpen, onClose }) => {
   };
 
   const handleClose = () => {
-    onClose(); // Close the modal
+    onClose(); 
 
     window.location.href = "/";
   };
