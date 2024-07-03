@@ -1,0 +1,138 @@
+.contact-us-container {
+  background-image: url('../photos/contact.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.contact-us-content {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 40px;
+  max-width: 40%;
+  border-radius: 10px;
+  color: #fff;
+  text-align: center;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.contact-us-content h1 {
+  font-size: 5.5rem;
+  margin-bottom: 10px;
+  font-family: 'Georgia', serif;
+}
+
+.contact-us-content p {
+  font-size: 4.2rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.contact-form {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 50px; 
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  background-color: #333;
+  color: #fff;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: #aaa;
+  font-size: 3.5rem;
+}
+
+.contact-form .send-message-button {
+  background-color: #e67e22;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 4rem;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form .send-message-button:hover {
+  background-color: #d35400;
+}
+
+.contact-details p {
+  font-size: 4.2rem;
+  color: #dcdcdc;
+  margin-bottom: 10px;
+}
+
+.contacts_links_icons {
+  margin-top: 20px;
+}
+
+.contacts_links_icons svg {
+  font-size: 4rem;
+  margin: 0 10px;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.contacts_links_icons svg:hover {
+  color: #e67e22;
+}
+
+@media (max-width: 1200px) {
+  .contact-us-content {
+    max-width: 60%;
+    padding: 30px;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    padding: 35px; 
+  }
+
+  .contact-form .send-message-button {
+    padding: 10px 20px;
+    font-size: 3.5rem; 
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-us-content {
+    max-width: 80%;
+    padding: 20px;
+  }
+
+  .contact-us-content h1 {
+    font-size: 3rem;
+    margin-bottom: 5px;
+  }
+
+  .contact-us-content p {
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    padding: 20px; 
+  }
+
+  .contact-form .send-message-button {
+    padding: 8px 16px;
+    font-size: 2.5rem; 
+  }
+}

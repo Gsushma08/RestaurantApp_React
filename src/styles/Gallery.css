@@ -1,0 +1,43 @@
+.Gallery {
+  padding: 2rem;
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+
+.Gallery h1,
+.Gallery-item {
+  margin-bottom: 6rem;
+  font-size: 4rem;
+}
+
+.Gallery-images {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.Gallery-images img {
+  width: 100%;
+  height: 70%;
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 768px) {
+  .Gallery-images {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Gallery h1,
+  .Gallery-item {
+    margin-bottom: 3rem; 
+  }
+
+  .Gallery-images img {
+    width: 100%;
+    max-width: 300px; 
+    height: auto;
+    margin-bottom: 3rem;
+  }
+}

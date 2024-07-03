@@ -1,0 +1,132 @@
+.reviewForm {
+  margin: 3rem auto;
+  padding: 1rem;
+  max-width: 40%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.reviewFormH2 {
+  margin-bottom: 1rem;
+  color: gold;
+  font-size: 6rem;
+}
+
+.reviewFormInput {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 4rem;
+}
+
+.reviewFormButton {
+  padding: 0.5rem 1rem;
+  background-color: white;
+  border: none;
+  color: black;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 4rem;
+  margin-top: 30px;
+}
+
+.reviewFormButton:hover {
+  background-color: gold;
+}
+
+.reviewList {
+  margin: 2rem auto;
+  max-width: 600px;
+  text-align: left;
+}
+
+.reviewListH2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.review {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: black;
+}
+
+.reviewH3 {
+  margin: 0;
+}
+
+.reviewP {
+  margin: 0.5rem 0;
+}
+
+.app {
+  text-align: center;
+  background-color: black;
+  color: gold;
+  padding: 4rem 2rem; 
+}
+
+.appHeader {
+  margin-bottom: 4rem;
+  font-size: 8rem;
+}
+
+
+@media screen and (max-width: 1200px) {
+  .reviewForm {
+    max-width: 50%; 
+  }
+
+  .reviewFormH2 {
+    font-size: 5rem; 
+  }
+
+  .reviewFormButton {
+    font-size: 3.5rem; 
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .reviewForm {
+    max-width: 70%;
+  }
+
+  .reviewFormH2 {
+    font-size: 4rem; 
+  }
+
+  .reviewFormButton {
+    font-size: 3rem; 
+  }
+
+  .appHeader {
+    font-size: 6rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .reviewForm {
+    max-width: 90%; 
+  }
+
+  .reviewFormH2 {
+    font-size: 3.5rem; 
+  }
+
+  .reviewFormInput {
+    font-size: 3rem; 
+  }
+
+  .reviewFormButton {
+    font-size: 2.5rem; 
+  }
+
+  .appHeader {
+    font-size: 4.5rem; 
+    margin-bottom: 2rem; 
+  }
+}

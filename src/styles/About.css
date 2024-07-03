@@ -1,0 +1,148 @@
+.aboutus {
+  position: relative;
+  background-color: white;
+  color: gold;
+  padding: 4rem 0;
+}
+
+.aboutus-content {
+  width: 100%;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  overflow: hidden; 
+}
+
+.aboutus-content_about,
+.aboutus-content_history {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.aboutus-content_about {
+  align-items: flex-end;
+  text-align: right;
+  font-size: 6rem;
+  animation: slideInLeft 5s forwards;
+}
+
+.aboutus-content_history {
+  align-items: flex-start;
+  text-align: left;
+  animation: slideInRight 5s forwards;
+  font-size: 6rem;
+}
+
+.aboutus-content_knife {
+  margin: 0 2rem;
+  animation: slideIn 4s forwards;
+}
+
+.aboutus-content_knife img {
+  height: 1000px;  
+  width: 800px;    
+}
+
+.aboutus-content_about p,
+.aboutus-content_history p {
+  margin: 2rem 0;
+  color: black;
+  font-size: 5rem;
+}
+
+.custom__button {
+  padding: 0.5rem 1rem;
+  background-color: #131313;
+  color: gold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.custom__button:hover {
+  background-color: #555;
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  .aboutus-content_knife img {
+    height: 1200px;  
+    width: 1000px;    
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .aboutus-content {
+    flex-direction: column;
+  }
+
+  .aboutus-content_about,
+  .aboutus-content_history {
+    text-align: center;
+    align-items: center;
+  }
+
+  .aboutus-content_knife {
+    margin: 4rem 0;
+  }
+
+  .aboutus-content_knife img {
+    height: 700px;  
+    width: 560px;   
+  }
+
+  .aboutus-content_about p,
+  .aboutus-content_history p {
+    margin: 2rem 0;
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .aboutus-content_knife img {
+    height: 500px;  
+    width: 400px;   
+  }
+
+  .aboutus-content_about p,
+  .aboutus-content_history p {
+    margin: 1rem 0;
+    font-size: 2.5rem;
+  }
+}
