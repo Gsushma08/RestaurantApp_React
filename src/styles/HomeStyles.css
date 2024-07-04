@@ -15,7 +15,7 @@
   align-items: center;
   list-style: none;
   gap: 2rem;
-  font-size: 2rem; 
+  font-size: 1.5rem; 
 }
 
 .navbar-links li {
@@ -32,7 +32,7 @@
   justify-content: flex-end;
   align-items: center;
   gap: 2rem;
-  font-size: 2rem; 
+  font-size: 1.5rem; 
 }
 
 .navbar-login a {
@@ -62,7 +62,7 @@
 }
 
 .navbar-smallscreen_overlay .overlay__close {
-  font-size: 2rem; 
+  font-size: 1.5rem; 
   color: gold;
   cursor: pointer;
   position: absolute;
@@ -109,21 +109,22 @@
   }
   
   .navbar-links {
-    font-size: 2.5rem; 
+    font-size: 2rem;
     gap: 1.5rem; 
   }
   
   .navbar-login {
-    font-size: 2.5rem; 
+    font-size: 2rem; 
     gap: 1.5rem; 
   }
   
   .navbar-smallscreen_overlay .overlay__close {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   
   .navbar-smallscreen_links li {
-    font-size: 2rem; 
+    font-size: 1.5rem; 
     margin: 1.5rem 0;
   }
 }
+

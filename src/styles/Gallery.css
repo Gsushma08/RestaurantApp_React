@@ -7,7 +7,7 @@
 
 .Gallery h1,
 .Gallery-item {
-  margin-bottom: 3rem; 
+  margin-bottom: 3rem;
   font-size: 2rem;
 }
 
@@ -15,21 +15,21 @@
   display: flex;
   justify-content: center;
   gap: 2rem;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
 }
 
 .Gallery-images img {
   width: 100%;
-  height: auto; 
-  max-width: 400px; 
+  height: auto;
+  max-width: 400px;
   border-radius: 8px;
 }
 
 @media screen and (max-width: 1200px) {
   .Gallery h1,
   .Gallery-item {
-    font-size: 1.8rem; 
-    margin-bottom: 2.5rem; 
+    font-size: 1.8rem;
+    margin-bottom: 2.5rem;
   }
 }
 
@@ -41,28 +41,35 @@
 
   .Gallery h1,
   .Gallery-item {
-    margin-bottom: 2rem; 
-    font-size: 1.6rem; 
+    margin-bottom: 2rem;
+    font-size: 1.6rem;
   }
 
   .Gallery-images img {
-    width: 100%;
-    max-width: 300px; 
+    max-width: 300px;
     height: auto;
-    margin-bottom: 2rem; 
+    margin-bottom: 2rem;
   }
 }
 
 @media screen and (max-width: 480px) {
   .Gallery h1,
   .Gallery-item {
-    font-size: 1.4rem; 
-    margin-bottom: 1.5rem; 
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
   }
 
   .Gallery-images img {
-    max-width: 90%; 
+    max-width: 90%;
+    height: auto;
     margin-bottom: 1.5rem;
+  }
+}
+
+
+@media (min-width: 480px) {
+  .Gallery-images img {
+    height: 300px; 
   }
 }
 

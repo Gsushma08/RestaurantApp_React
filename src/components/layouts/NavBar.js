@@ -29,7 +29,7 @@ const Navbar = () => {
               fontFamily: "Times New Roman, serif",
               fontStyle: "italic",
               textTransform: "capitalize",
-              fontSize: "3rem",
+              fontSize: "2rem",
               color: "gold",
             }}
           >

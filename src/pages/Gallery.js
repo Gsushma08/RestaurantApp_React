@@ -18,7 +18,7 @@ const Gallery = () => (
     </h1>
     <div className="Gallery-images">
       <div className="Gallery-item">
-        <img src={images.speciality1} alt="Speciality 1" />
+      <img src={images.speciality1} alt="Speciality 1" style={{ width: '100%', height: '65%', maxWidth: '400px' }} />
         <h3>Natu Kodi Pulusu</h3>
       </div>
       <div className="Gallery-item">
