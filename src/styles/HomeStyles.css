@@ -6,13 +6,7 @@
   background: black;
   padding: 1rem 2rem;
   color: gold;
-  overflow-x: auto; 
-}
-
-.navbar-logo {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  overflow-x: auto;
 }
 
 .navbar-links {
@@ -21,7 +15,7 @@
   align-items: center;
   list-style: none;
   gap: 2rem;
-  font-size: 3rem; 
+  font-size: 2rem; 
 }
 
 .navbar-links li {
@@ -38,7 +32,7 @@
   justify-content: flex-end;
   align-items: center;
   gap: 2rem;
-  font-size: 3rem; 
+  font-size: 2rem; 
 }
 
 .navbar-login a {
@@ -68,7 +62,7 @@
 }
 
 .navbar-smallscreen_overlay .overlay__close {
-  font-size: 4rem; 
+  font-size: 2rem; 
   color: gold;
   cursor: pointer;
   position: absolute;
@@ -89,7 +83,7 @@
   margin: 2rem 0;
   cursor: pointer;
   color: gold;
-  font-size: 2rem;
+  font-size: 2rem; 
   text-align: center;
 }
 
@@ -112,5 +106,24 @@
 @media screen and (max-width: 650px) {
   .navbar {
     padding: 1rem;
+  }
+  
+  .navbar-links {
+    font-size: 2.5rem; 
+    gap: 1.5rem; 
+  }
+  
+  .navbar-login {
+    font-size: 2.5rem; 
+    gap: 1.5rem; 
+  }
+  
+  .navbar-smallscreen_overlay .overlay__close {
+    font-size: 2.5rem;
+  }
+  
+  .navbar-smallscreen_links li {
+    font-size: 2rem; 
+    margin: 1.5rem 0;
   }
 }

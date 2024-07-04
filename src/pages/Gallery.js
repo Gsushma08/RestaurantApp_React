@@ -9,7 +9,7 @@ const Gallery = () => (
         fontFamily: "Times New Roman, serif",
         fontStyle: "italic",
         textTransform: "capitalize",
-        fontSize: "5rem",
+        fontSize: "3.5rem",
         color: "black",
         textAlign: "center",
       }}

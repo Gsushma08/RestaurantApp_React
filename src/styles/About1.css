@@ -10,70 +10,72 @@
 
 .about-us-content {
     background-color: rgba(255, 255, 255, 0.9);
-    padding: 50px;
-    max-width: 60%;
+    padding: 3rem;
+    max-width: 70%;
     border-radius: 10px;
 }
 
 .about-us-content h1 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.2;
 }
 
 .about-us-content h2 {
-    font-size: 2rem;
-    margin-top: 30px;
-    margin-bottom: 10px;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
 }
 
 .about-us-content p {
-    font-size: 2.5rem;
+    font-size: 1rem;
     line-height: 1.6;
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
 }
 
 @media screen and (max-width: 1200px) {
     .about-us-content {
         max-width: 60%;
-        padding: 40px;
+        padding: 2.5rem;
     }
 
     .about-us-content h1 {
         font-size: 4rem;
+        margin-bottom: 1rem;
     }
 
     .about-us-content h2 {
         font-size: 3.5rem;
-        margin-top: 20px;
-        margin-bottom: 5px;
+        margin-top: 1.5rem;
+        margin-bottom: 0.25rem;
     }
 
     .about-us-content p {
         font-size: 3rem;
-        margin-bottom: 30px;
+        margin-bottom: 1.5rem;
     }
 }
 
 @media screen and (max-width: 768px) {
     .about-us-content {
         max-width: 80%;
-        padding: 30px;
+        padding: 2rem;
     }
 
     .about-us-content h1 {
         font-size: 3.5rem;
-        margin-bottom: 15px;
+        margin-bottom: 0.75rem;
     }
 
     .about-us-content h2 {
         font-size: 3rem;
-        margin-top: 15px;
-        margin-bottom: 5px;
+        margin-top: 0.75rem;
+        margin-bottom: 0.25rem;
     }
 
     .about-us-content p {
         font-size: 2.5rem;
-        margin-bottom: 20px;
+        margin-bottom: 1rem;
     }
 }
 

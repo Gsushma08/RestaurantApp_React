@@ -1,3 +1,4 @@
+/* Overlay styles */
 .booking-overlay {
   position: fixed;
   top: 0;
@@ -11,20 +12,17 @@
   z-index: 1000;
 }
 
+/* Modal content styles */
 .booking-content {
   background-color: white;
-  padding: 40px;
+  padding: 20px;
   border-radius: 8px;
-  width: 30%;
-  max-width: 90%;
+  width: 90%;
+  max-width: 500px;
   position: relative;
   color: black;
-  height: 60%;
-  font-size: 2rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .close-button {
@@ -34,13 +32,13 @@
   background: none;
   border: none;
   color: black;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   cursor: pointer;
 }
 
 .booking-title {
   text-align: center;
-  font-size: 4rem;
+  font-size: 2rem;
   margin-bottom: 20px;
 }
 
@@ -50,30 +48,30 @@
 }
 
 .form-info {
-  font-size: 2.5rem;
+  font-size: 1.2rem;
   margin-bottom: 10px;
 }
 
-.form-input[type="text"],
-.form-input[type="datetime-local"],
+.form-input,
 .form-selection {
-  padding: 30px;
-  margin-bottom: 20px;
-  border: 1px solid black;
-  font-size: 3rem;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ced4da;
+  font-size: 1rem;
+  border-radius: 4px;
   background-color: white;
   color: black;
 }
 
 .book-button {
-  padding: 20px;
+  padding: 10px;
   background-color: #ffb347;
   border: none;
   border-radius: 4px;
   color: black;
-  font-size: 3rem;
+  font-size: 1rem;
   cursor: pointer;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .book-button:hover {
@@ -82,80 +80,57 @@
 
 .confirmation-message {
   text-align: center;
-  margin-top: 50%;
+  margin-top: 20px;
 }
 
-@media screen and (max-width: 1200px) {
-  .booking-content {
-    width: 40%; 
-  }
-
-  .booking-title {
-    font-size: 4rem; 
-  }
-
-  .form-input[type="text"],
-  .form-input[type="datetime-local"],
-  .form-selection {
-    padding: 20px; 
-  }
-
-  .book-button {
-    font-size: 4rem; 
-  }
-}
-
+/* Responsive styles */
 @media screen and (max-width: 768px) {
   .booking-content {
-    width: 60%; 
-    padding: 30px; 
+    padding: 15px;
   }
 
   .booking-title {
-    font-size: 5rem; 
+    font-size: 1.8rem;
   }
 
   .form-info {
-    font-size: 4rem; 
+    font-size: 1rem;
   }
 
-  .form-input[type="text"],
-  .form-input[type="datetime-local"],
+  .form-input,
   .form-selection {
-    padding: 15px; 
-    font-size: 3.5rem; 
+    padding: 8px;
+    font-size: 0.9rem;
   }
 
   .book-button {
-    font-size: 3.5rem; 
-    padding: 15px; 
+    font-size: 0.9rem;
+    padding: 8px;
   }
 }
 
 @media screen and (max-width: 480px) {
   .booking-content {
-    width: 80%; 
-    padding: 20px; 
+    padding: 10px;
   }
 
   .booking-title {
-    font-size: 4rem; 
-    margin-bottom: 10px; 
+    font-size: 1.5rem;
+    margin-bottom: 15px;
   }
 
   .form-info {
-    font-size: 3.5rem; 
+    font-size: 0.9rem;
   }
 
-  .form-input[type="text"],
-  .form-input[type="datetime-local"],
+  .form-input,
   .form-selection {
-    padding: 10px; 
-    font-size: 3rem; 
+    padding: 6px;
+    font-size: 0.8rem;
   }
 
   .book-button {
-    font-size: 3rem; 
-    padding: 10px; 
+    font-size: 0.8rem;
+    padding: 6px;
   }
 }

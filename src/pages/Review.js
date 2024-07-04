@@ -76,7 +76,7 @@ const Reviews = () => {
           title="Google Maps Location"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60561.24030310652!2d79.05520631890562!3d18.434789145959982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bccd910bcf48931%3A0x4889b0398ed69f07!2sKarimnagar%2C%20Telangana!5e0!3m2!1sen!2sin!4v1716099002886!5m2!1sen!2sin"
           width="40%"
-          height="800px"
+          height="400px"
         ></iframe>
       </div>
     </div>

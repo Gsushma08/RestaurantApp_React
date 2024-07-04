@@ -130,7 +130,7 @@
   .aboutus-content_about p,
   .aboutus-content_history p {
     margin: 2rem 0;
-    font-size: 3rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -143,6 +143,6 @@
   .aboutus-content_about p,
   .aboutus-content_history p {
     margin: 1rem 0;
-    font-size: 2.5rem;
+    font-size: 1rem;
   }
 }
